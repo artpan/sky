@@ -1,0 +1,6 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay,Max Operating Freq. ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance Number ,total memory bit 
+MIPI_RF_2P_32X64PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,32,64,FALSE,,,TRUE,1,1,FALSE,HIGH,FALSE,FALSE,MIPI_RF_2P_32x64,8,16384
+MIPI_RF_2P_64X64PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,64,FALSE,,,TRUE,1,1,FALSE,HIGH,FALSE,FALSE,MIPI_RF_2P_64x64,no_use,
+MIPI_RF_2P_128X64PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,128,64,FALSE,,,TRUE,1,2,FALSE,HIGH,FALSE,FALSE,MIPI_RF_2P_128x64,no_use,
+MIPI_RF_2P_256X48PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,256,48,FALSE,,,TRUE,2,2,FALSE,HIGH,FALSE,FALSE,MIPI_RF_2P_256x48,no_use,
+MIPI_RF_2P_512X48PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,512,48,FALSE,,,TRUE,2,4,FALSE,HIGH,FALSE,FALSE,MIPI_RF_2P_512x48,1,24576

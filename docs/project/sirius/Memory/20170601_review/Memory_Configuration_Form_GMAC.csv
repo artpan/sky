@@ -1,0 +1,3 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance Num
+GMAC_SR_DP_512X36PG,ts28nzh42p22sadsl01msa02p3,HD SRAM 1M sync,,512,36,FALSE,,250MHz,TRUE,4,1,FALSE,HIGH,FALSE,FALSE,i_tx_mem£¨1£©      i_rx_mem£¨1),2
+GMAC_RF_1P_256X32B1PG,ts28nzh41p11sadgl128sa03,HD Gen2 ,,256,32,TRUE,,250MHz,TRUE,2,1,FALSE,HIGH,FALSE,FALSE,i_bd_mem£¨1£©     i_scnt_mem£¨1£©,2

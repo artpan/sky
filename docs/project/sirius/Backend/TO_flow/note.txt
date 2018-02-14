@@ -1,0 +1,5 @@
+1）关于IP Merge room的预定，我这边需要你们给我一个确定的时间，以及需要预定的天数（越早越好）。
+2）IP Merge Room的预定需要提供IP name、IP vendor name,IP vendor 联系人名字、邮箱、电话。
+             IP Merge 人员名单，联系邮箱，联系电话和是否开车，如果开车，车牌号也请告知我。
+3）IP merge需要用到的GDS，techfile，需要在merge之前提前上传至ICC FTP。
+4）你们merge需要配置软件的环境，也最好一起告知我，我会和台积电沟通，让他们尽量能满足你们的配置。

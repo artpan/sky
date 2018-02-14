@@ -1,0 +1,4 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance Num
+SRTP_SR_1P_8192X64B1PG,ts28nzh41p11sad2l02msa05p1,UHD Gen2 Leakage Control SRAM 2M Sync,,8192,64,TRUE,,600MHz,TRUE,8,4,TRUE,STANDARD,FALSE,FALSE,u_SRTP_1P_8192X64B1PG,22
+SRTP_SR_1P_4096X64B1PG,ts28nzh41p11sad2l02msa05p1,UHD Gen2 Leakage Control SRAM 2M Sync,,4096,128,TRUE,,600MHz,TRUE,4,4,TRUE,STANDARD,FALSE,FALSE,u_SRTP_1P_4096X64B1PG,5
+SRTP_SR_1P_2048X64B1PG,ts28nzh41p11sad2l02msa05p1,UHD Gen2 Leakage Control SRAM 2M Sync,,2048,128,TRUE,,600MHz,TRUE,4,2,TRUE,STANDARD,FALSE,FALSE,u_SRTP_1P_2048X64B1PG,2

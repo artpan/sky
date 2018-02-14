@@ -1,0 +1,4 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number (optional),Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance num
+USB_SR_1P_2624X64PG,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02ms,32words160bits <-> 4096words40bits,2624,64,FALSE,,150,TRUE,8,2,TRUE,HIGH,,,,1
+USB_SR_1P_3072X64PG,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02ms,32words160bits <-> 4096words40bits,3072,64,FALSE,,150,TRUE,8,2,TRUE,HIGH,,,,1
+USB_SR_1P_1184X64PG,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02ms,32words160bits <-> 4096words40bits,1184,64,FALSE,,150,TRUE,4,2,TRUE,HIGH,,,,1

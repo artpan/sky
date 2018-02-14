@@ -1,0 +1,31 @@
+kpts28hpc128_r08w01_45c5pl_0v0 1000
+XOR.L31
+0 0 4 Oct 27 11:18:56 2017                     
+XOR.L31 {
+    @ Compare 31.0 with 31.0
+    XOR L31 L131
+}
+XOR.L32
+0 0 4 Oct 27 11:18:56 2017                     
+XOR.L32 {
+    @ Compare 32.0 with 32.0
+    XOR L32 L132
+}
+XOR.L33
+0 0 4 Oct 27 11:18:56 2017                     
+XOR.L33 {
+    @ Compare 33.0 with 33.0
+    XOR L33 L133
+}
+XOR.L34
+0 0 4 Oct 27 11:18:56 2017                     
+XOR.L34 {
+    @ Compare 34.0 with 34.0
+    XOR L34 L134
+}
+XOR.L35
+0 0 4 Oct 27 11:18:56 2017                     
+XOR.L35 {
+    @ Compare 35.0 with 35.0
+    XOR L35 L135
+}

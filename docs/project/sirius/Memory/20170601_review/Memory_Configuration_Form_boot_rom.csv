@@ -1,0 +1,4 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name 
+BOOT_ROM512X128PG,HD ROM(1M),ts28nzh41p10asdvl01ms,,512,128,FALSE,,300,TRUE,8,1,TRUE,STANDARD,FALSE,FALSE,boot rom x 1
+BOOT_ROM512X32PG,HD ROM(1M),ts28nzh41p10asdvl01ms,,512,32,FALSE,,300,TRUE,8,1,FALSE,STANDARD,FALSE,FALSE,boot rom x 4
+BOOT_ROM8192X128PG,HD ROM(1M),ts28nzh41p10asdvl01ms,,8192,128,FALSE,,300,TRUE,8,8,TRUE,STANDARD,FALSE,FALSE,boot rom x 1

@@ -1,0 +1,12 @@
+ Merge team hope to provide better service for yours. Could you provide
+following information to us as early as possible before
+       usage date?
+      1. The near-final pre-merge GDSII file size (compress & un-compress)
+      2. To upload near-final calibre run log tar file (DRC/ANT/LVS бн etc) to
+TSMC ftp (ftp.tsmc.com.tw) then provide following information to
+g_ipmerge@tsmc.com
+        ftp account name
+        file location
+       file size
+    We will have environment evaluation based on your information. And we
+will arrange extra resource if necessary before your members arrive TSMC.

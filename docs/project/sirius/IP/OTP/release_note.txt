@@ -1,0 +1,3 @@
+2. Please be advised that when your team apply for the IP merge to TSMC, the information in relation to IP should be as the following:
+IP name: KPTS28HPC128-R08W01-45C5PL-0V0
+IP version: 1_0_0

@@ -1,0 +1,178 @@
+X-Alimail-AntiSpam:AC=PASS;BC=-1|-1;BR=01201311R731e2;FP=0|-1|-1|-1|0|-1|-1|-1;HT=e02c03303;MF=mingjie.tang@verisilicon.com;NM=1;PH=DM;RN=1;RT=1;SC=80;SR=1;TI=MTA_---.9JOeGWl_1509697590;
+Received: from shasxm09.verisilicon.com(mailfrom:mingjie.tang@verisilicon.com ip:180.169.130.85)
+          by mx1.aliyun-inc.com(10.147.2.119);
+          Fri, 03 Nov 2017 16:26:31 +0800
+Content-Language: zh-CN
+Content-Type: multipart/alternative;
+	boundary="_000_3F7F916294CE9E4981FEEC061DF47BF002EA4E8918shasxm09veris_"
+DKIM-Signature: v=1; a=rsa-sha256; d=verisilicon.com; s=default;
+	c=simple/simple; t=1509697587; h=from:subject:to:date:message-id;
+	bh=rRmp2GwcDH4726d00YMy9d7+BcZxnNduD/O2i6IWBUM=;
+	b=ALRthsemnlxxIk0jBMLs7KaGohMgP2a1FDL8Om73/WZN47j21jxcAM96TRzY+T2RCx/YDRQNB7U
+	9j9N9squj6TrNpUTyAYq98/GawidRTCI5ac9vTf4vHyIXtYFKSItdcl9ryaDrPZubDLgEXcsokNVs
+	rwBGhkvMjiUtnIdBDSA=
+Received: from SHASXM09.verisilicon.com ([fe80::f19a:87b0:7c79:baf0]) by
+ shasxm10.verisilicon.com ([fe80::ac9d:8bbe:6d3f:a81d%22]) with mapi id
+ 14.03.0123.003; Fri, 3 Nov 2017 16:26:26 +0800
+From: "Tang, Mingjie" <mingjie.tang@verisilicon.com>
+To: song.pan <song.pan@artosyn.cn>
+Subject: testin house
+Thread-Topic: testin house
+Thread-Index: AdNUfWMgnt7XcejzQH+JwIis8LOdWA==
+Date: Fri, 3 Nov 2017 08:26:25 +0000
+Message-ID: <3F7F916294CE9E4981FEEC061DF47BF002EA4E8918@shasxm09.verisilicon.com>
+Accept-Language: zh-CN, en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-cr-hashedpuzzle: BH4b BrfX Ca+5 DcVD Dw9Z EVmd GScy Hqu9 HyFi JPng JR/t
+ JbYt KqFX LB4l LFl9
+ LSym;1;cwBvAG4AZwAuAHAAYQBuAEAAYQByAHQAbwBzAHkAbgAuAGMAbgA=;Sosha1_v1;7;{06C40B86-B1DF-474D-97C4-3428D44331E4};bQBpAG4AZwBqAGkAZQAuAHQAYQBuAGcAQAB2AGUAcgBpAHMAaQBsAGkAYwBvAG4ALgBjAG8AbQA=;Fri,
+ 03 Nov 2017 08:26:03 GMT;dABlAHMAdABpAG4AIABoAG8AdQBzAGUA
+x-cr-puzzleid: {06C40B86-B1DF-474D-97C4-3428D44331E4}
+x-originating-ip: [10.10.17.61]
+x-tm-as-product-ver: SMEX-11.0.0.4179-8.100.1062-23436.000
+x-tm-as-result: No--25.660500-0.000000-31
+x-tm-as-user-approved-sender: Yes
+x-tm-as-user-blocked-sender: No
+MIME-Version: 1.0
+
+--_000_3F7F916294CE9E4981FEEC061DF47BF002EA4E8918shasxm09veris_
+Content-Type: text/plain; charset="gb2312"
+Content-Transfer-Encoding: base64
+
+SGkgUGFuc29uZywNCg0KSkNFVCBjb250YWN0IHdpbmRvdyBhcyBiZWxvdywgeW91ciBzb2NrZXQg
+dmVuZG9yIGNhbiB0cnkgdG8gY29udGFjdCBoaW0uDQoNCllFVSBLdWFuZ19Ic2llbiAo08654tl0
+KQ0KVGVzdCBTdHJhdGVneSBhbmQgQnVzaW5lc3MgRGV2ZWxvcG1lbnQgKEpTQ0MpDQpFLW1haWw6
+IGt1YW5naHNpZW4ueWV1QHN0YXRzY2hpcHBhYy5jb208bWFpbHRvOmt1YW5naHNpZW4ueWV1QHN0
+YXRzY2hpcHBhYy5jb20+DQpTVEFUUyBDaGlwUEFDIFB0ZS4gTHRkLiAoSmlhbmdZaW5nKQ0KRElE
+OiAoKzg2LTA1MTApIDY4ODM1ODU4IEV4dC41MjAyOyBWUE1OOiA2MzUyNQ0KTW9iaWxlOiAoKzg2
+KSAxMzU2NDU2NTY5OQ0KDQpiZXN0IHJlZ2FyZA0KTUogVGFuZw0KVGVsOiA4Ni0yMS01MTMzNDk2
+Mw0KMjBBLCBOby41NjAsIFNvbmd0YW8gUm9hZCwgWmhhbmdqaWFuZyBDZW50ZXIsIFpoYW5namlh
+bmcgSGktVGVjaCBQYXJrLCBQdWRvbmcgTmV3IEFyZWEsIFNoYW5naGFpIDIwMTIwMywgUFJDDQrW
+0Ln6yc+6o8rQxta2q9DCx/gg1cW9rbjfv8a8vNSwx/ggy8nMzsK3NTYwusUg1cW9rbTzz8MyMEEs
+IDIwMTIwMw0KDQo=
+
+--_000_3F7F916294CE9E4981FEEC061DF47BF002EA4E8918shasxm09veris_
+Content-Type: text/html; charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312">
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:=CB=CE=CC=E5;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=CB=CE=CC=E5";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+ /* Page Definitions */
+ @page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"ZH-CN" link=3D"blue" vlink=3D"purple" style=3D"text-justify-t=
+rim:punctuation">
+<div class=3D"Section1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Hi Pansong,<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">JCET contact window as below, y=
+our socket vendor can try to contact him.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" align=3D"left" style=3D"text-align:left;text-autospa=
+ce:none"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;T=
+rebuchet MS&quot;,&quot;sans-serif&quot;;
+color:#1F497D">YEU Kuang_Hsien (</span><span style=3D"font-size:10.0pt;
+font-family:=CB=CE=CC=E5;color:#1F497D">=D3=CE=B9=E2=D9t</span><span lang=
+=3D"EN-US" style=3D"font-size:10.0pt;
+font-family:&quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;color:#1F497D">=
+)<br>
+Test Strategy and Business Development (JSCC)<br>
+E-mail: <a href=3D"mailto:kuanghsien.yeu@statschippac.com"><span style=3D"c=
+olor:#1F497D">kuanghsien.yeu@statschippac.com</span></a><br>
+STATS ChipPAC Pte. Ltd. (JiangYing)<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-=
+family:&quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;
+color:#1F497D">DID: (&#43;86-0510) 68835858 Ext.5202; VPMN: 63525<br>
+Mobile: (&#43;86) 13564565699</span><span lang=3D"EN-US"><o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial Unicode MS&quot;,&quot;sans-serif&quot;;
+color:black">best regard<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial Unicode MS&quot;,&quot;sans-serif&quot;;
+color:black">MJ Tang<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial Unicode MS&quot;,&quot;sans-serif&quot;;
+color:black">Tel: 86-21-51334963<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial Unicode MS&quot;,&quot;sans-serif&quot;;
+color:black">20A, No.560, Songtao Road, Zhangjiang Center, Zhangjiang Hi-Te=
+ch Park, Pudong New Area, Shanghai 201203, PRC<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al Unicode MS&quot;,&quot;sans-serif&quot;;
+color:black">=D6=D0=B9=FA=C9=CF=BA=A3=CA=D0=C6=D6=B6=AB=D0=C2=C7=F8 =D5=C5=
+=BD=AD=B8=DF=BF=C6=BC=BC=D4=B0=C7=F8 =CB=C9=CC=CE=C2=B7<span lang=3D"EN-US"=
+>560</span>=BA=C5 =D5=C5=BD=AD=B4=F3=CF=C3<span lang=3D"EN-US">20A, 201203<=
+o:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_3F7F916294CE9E4981FEEC061DF47BF002EA4E8918shasxm09veris_--

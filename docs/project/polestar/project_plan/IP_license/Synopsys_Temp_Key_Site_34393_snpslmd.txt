@@ -1,0 +1,140 @@
+#Date: 04/06/2017
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 34393
+#                                                                        Artosyn Inc.
+#                                                                        6F,Tower 9, KIC, 308, Songhu Road,
+#                                                                        Shanghai
+#                                                                        200000
+#                                                                        CN
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys may be generated with durations shorter than the actual license term and therefore may require periodic retrieval from SmartKeys at https://solvnet.synopsys.com/SmartKeys
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#IMPORTANT NOTICE: Beginning September 2015, WAN usage rights details will be included in the license file summary on a product by product basis (where applicable) for deliveries against
+#new agreements and/or purchases. Please contact your account manager for further information.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000262580
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 4.1 on April 06, 2017 at 03:12:32 for daemon snpslmd
+SERVER hostname1 90B11C5A7C21 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 12-May-2017 1 AE6AF6E680C7EB1A6D71 \
+        VENDOR_STRING="50023 b7ddf 046c1 f0efc e6251 14a36 5d0ef ce625 114a3 65d11 \
+        01020 06c09 f5075 509ec cf4a4 a9222 bbcbc e8650 15a88 cf4aa \
+        31e75 260e8 4ec3f 5c35d b804b 7d8dc 57a1c 87b90 0fdf7 3df72 \
+        21dac c6082 b4f7d 94c33 a4045 0fdd4 dad70 879e9 124fc d855c \
+        61127 b02f0 b56a4 6438a d9a66 94a77 e7797 bd174 5c787 71893 \
+        d2efa 1a1bc ea0c2 d2191 acb20 c8500 7fef3 edc8f e6632 d0602 \
+        c0fd3 6db3c e70f0 f8ec7 0d5a6 55be7 29b7d 1f099 ae54f 5d87f \
+        7a357 3a1fc 69775 0d87a 64df1 3ab06 fa2be 6b1be d007b bedc2 \
+        3f444 47468 36892 e8825 beb38 8a78e ab675 97da3 45993 6852f \
+        81410 31d14 ed51b 0f8fe b5c3b 50a89 bbcc3 45a8e f8fb3 c4c33 \
+        009dd c49ab b1513 d23e7 02df6 23e7d 89e58 a4978 aed9c 88284 \
+        00271 71ab5 a5fc6 e41" \
+        NOTICE="Licensed to Artosyn Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:410804 ISSUER="Synopsys, Inc. [4/6/2017 3:12:32 34393 4.1]" \
+        START=06-Apr-2017
+INCREMENT DWC-ADV-FEATURE-PKG-FOR-UMCTL2 snpslmd 2017.03 12-may-2017 \
+        2 VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=85 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=0E9A36165B1AC86B0BA4) }
+INCREMENT DWC-DDR4-ADD-ON-FOR-UMCTL2-MP snpslmd 2017.03 12-may-2017 1 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=9 \
+        SN=TK:3175-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=9ECAA666D9E3A225FC08) }
+INCREMENT DWC-UNIVERSAL-DDR-CTL2-BASE snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=23 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=2E5AA636E37618CF51F9) }
+INCREMENT DWC-UNIVERSAL-DDR-MCTL2 snpslmd 2017.03 12-may-2017 1 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=80 \
+        SN=TK:3175-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=8E2AC6F6711DAE2A7B04) }
+INCREMENT DWC-UNIVERSAL-DDR-MCTL2 snpslmd 2017.03 12-may-2017 1 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=57 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=5E5A7656D21EF286CA65) }
+INCREMENT DWC-UNIVERSAL-DDR-MCTL2-MP snpslmd 2017.03 12-may-2017 1 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=68 \
+        SN=TK:3175-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=8E6A0656E2D4A51AB46C) }
+INCREMENT DWC-UNIVERSAL-DDR-MCTL2-MP snpslmd 2017.03 12-may-2017 1 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=106 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=5ECAD6C6B72C945329E0) }
+INCREMENT DesignWare-AMBA-VIP snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=253 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=AE0A16360B5CCF83BA15) }
+INCREMENT DesignWare-VERA snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=97 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=1EBAD676AD25A4AC6BAA) }
+INCREMENT VIP-3DS-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=92 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=6EEA96966D6DAB72A218) }
+INCREMENT VIP-AMBA-AHB-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=227 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=EE0A06B684BF05F79BD4) }
+INCREMENT VIP-AMBA-APB-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=35 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=BE8AB6A664B2CD57D398) }
+INCREMENT VIP-AMBA-AXI-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=78 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=8E0A0696B57D01FA8AAF) }
+INCREMENT VIP-DDR-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=108 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=5EAAA6F6D6AEA11BB28A) }
+INCREMENT VIP-DDR3-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=101 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=9EAAF66609D8CCD8DD40) }
+INCREMENT VIP-DDR4-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=221 \
+        SN=TK:3175-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=0E1A46C68368131C48BB) }
+INCREMENT VIP-LPDDR-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=118 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=EEEAB6C6E1A5AB77581F) }
+INCREMENT VIP-LPDDR2-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=56 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=5EEAA64676BBD6B0A21C) }
+INCREMENT VIP-LPDDR3-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=30 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=DE8A86767816547AFBDE) }
+INCREMENT VIP-MRAM-SVT snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=101 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=FEBA56163BA40FAE8ABD) }
+INCREMENT VT_CoverageURG snpslmd 2017.03 12-may-2017 2 \
+        VENDOR_STRING=^1+U&PID=28f534ea& ISSUED=06-apr-2017 ck=54 \
+        SN=TK:9220-0:460578:410804 START=12-apr-2017 AUTH={ snpslmd=( \
+        LK=1E9A16F688B75F47A32F) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

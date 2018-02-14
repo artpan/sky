@@ -1,0 +1,6 @@
+For socket order pls consider below requirement
+1.       Max current per pin: 500mA
+2.       Max frequency: 5Gbps (some high speed pins, the rest should be less than 200Mbps)
+3.       Temperature spec: -40C~125C
+4.       Life time: generally no less 300K
+5.       use revolving cover to adjust the pressure

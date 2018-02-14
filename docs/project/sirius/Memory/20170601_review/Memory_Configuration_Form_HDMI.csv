@@ -1,0 +1,5 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay (ns),Max Operating Freq.,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency (optional),Instance Name ,instance number
+HDMI_RF_2P_768X32PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,,768,32,FALSE,,340,TRUE,4,4,FALSE,standard,FALSE,no,packet_ram,1
+HDMI_RF_2P_1024X30PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,,1024,30,FALSE,,340,TRUE,4,4,FALSE,standard,FALSE,no,audio_ram,1
+HDMI_RF_2P_576X30PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,,576,30,FALSE,,340,TRUE,4,4,FALSE,standard,FALSE,no,audio_ram,1
+HDMI_RF_2P_256X8PG,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,,256,8,FALSE,,340,TRUE,4,1,FALSE,stardard,FALSE,no,edidram,1

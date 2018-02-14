@@ -1,0 +1,61 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Fri Oct 27 11:18:54 2017
+Calibre Version:           v2017.1_34.33    Wed Apr 5 14:22:19 PDT 2017
+Rule File Pathname:        /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4906/calibredrv/cwb_DrcDiff1509128333284506.svrf
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4906/calibredrv/cwb_DisplayedLayout.gds
+Layout Primary Cell:       kpts28hpc128_r08w01_45c5pl_0v0
+Layout System2:            GDS
+Layout Path2(s):           /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4988/ship/kpts28hpc128_r08w01_45c5pl_0v0_1_0_0.gds
+Layout Primary Cell2:      kpts28hpc128_r08w01_45c5pl_0v0
+Current Directory:         /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4906/calibredrv
+User Name:                 hlee
+Maximum Results/RuleCheck: ALL
+Maximum Result Vertices:   4096
+DRC Results Database:      /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4906/calibredrv/cwb_DrcDiff1509128333284506.db (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       /proj/tsmc/28HPC/ip/KPTS28HPC128-R08W01-45C5PL-0V0_1_0_0_4906/calibredrv/cwb_DrcDiff1509128333284506.rep (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         ALL TEXT
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER L131 ... TOTAL Original Geometry Count = 16497 (1277622)
+LAYER L31 .... TOTAL Original Geometry Count = 16497 (1277622)
+LAYER L132 ... TOTAL Original Geometry Count = 6237  (755381)
+LAYER L32 .... TOTAL Original Geometry Count = 6237  (755381)
+LAYER L133 ... TOTAL Original Geometry Count = 3835  (353632)
+LAYER L33 .... TOTAL Original Geometry Count = 3835  (353632)
+LAYER L134 ... TOTAL Original Geometry Count = 1170  (11889)
+LAYER L34 .... TOTAL Original Geometry Count = 1170  (11889)
+LAYER L135 ... TOTAL Original Geometry Count = 136   (1079)
+LAYER L35 .... TOTAL Original Geometry Count = 136   (1079)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK XOR.L31 ... TOTAL Result Count = 0 (0)
+RULECHECK XOR.L32 ... TOTAL Result Count = 0 (0)
+RULECHECK XOR.L33 ... TOTAL Result Count = 0 (0)
+RULECHECK XOR.L34 ... TOTAL Result Count = 0 (0)
+RULECHECK XOR.L35 ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  3
+TOTAL REAL Time:                 1
+TOTAL Original Layer Geometries: 55750 (4799206)
+TOTAL DRC RuleChecks Executed:   5
+TOTAL DRC Results Generated:     0 (0)

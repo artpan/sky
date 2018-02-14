@@ -1,0 +1,5 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,number
+CEVA_RF_1P_256X32,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,256,32,FALSE,0.9,1000,FALSE,4,1,FALSE,STANDARD,FALSE,,pmem_set_bnk,32
+CEVA_RF_1P_512X32B1,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,512,32,TRUE,0.9,1000,FALSE,4,2,FALSE,STANDARD,FALSE,,dmem_blk_bnk,64
+CEVA_SR_1P_1024X32,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02msa05p1,,1024,32,FALSE,0.6,1000,FALSE,8,4,TRUE,STANDARD,FALSE,,pmem_blk0_bnk[0:7],8
+CEVA_SR_1P_128X21,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02msa05p1,,128,21,FALSE,0.9,1000,FALSE,4,1,FALSE,STANDARD,FALSE,,pmem_tag_way_mem,4

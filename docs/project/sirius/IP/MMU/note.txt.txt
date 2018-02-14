@@ -1,0 +1,7 @@
+
+1. the TCU can issue secure PTW when the transaction is SSD secure and TCR.NSCFGx = b0 and NS bit in the first level table of short descriptor format
+
+limitation: 由于rsb_ns/wsb_ns 是tie 成 1 （non secure），是不可能发出 secure 的 PTW访问。
+            DSP/CODEC 只支持 Non secure 访问
+            
+            如果需要支持secure的访问，必须把arprot[1]/awprot[1]来动态控制rsb_ns/wsb_ns

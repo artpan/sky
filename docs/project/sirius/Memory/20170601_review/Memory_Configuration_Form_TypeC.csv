@@ -1,0 +1,34 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay (ns),Max Operating Freq. (MHz),power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency (optional),Instance Name ,instance number,,Size
+TYPEC_RF_1P_2048x32P1,1-ports HD RF ( 128K GEN2),ts28nzh41p11sadgl128sa03,,2048,32,FALSE,,200,TRUE,4,2,FALSE,standard,FALSE,no,source_pkt_ram,1,,4096
+TYPEC_RF_1P_32x46P1,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,32,46,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_1p_bw_ram1_wrapper,1,,1472
+TYPEC_RF_1P_256x36P1,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,256,36,FALSE,,250,TRUE,4,1,FALSE,standard,FALSE,no,ram_1p_bw_ram2_wrapper,1,,9216
+TYPEC_RF_1P_1024x56P1,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,1024,56,FALSE,,250,TRUE,4,1,FALSE,standard,FALSE,no,ram_1p_tte_cntx_ram_wrapper,1,,57344
+TYPEC_RF_2P_128x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,128,64,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_async_pkt_txfifo_ram_wrapper,1,usb2 memory,8192
+TYPEC_RF_2P_16x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,64,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_async_pkt_txfifo_tt_ram_wrapper,1,usb2 memory,1024
+TYPEC_RF_2P_512x74P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,512,74,FALSE,,250,TRUE,2,4,FALSE,standard,FALSE,no,ram_2p_cpl_collect_ram_wrapper,2,,75776
+TYPEC_RF_2P_16x74P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,74,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,,1,,1184
+TYPEC_RF_2P_256x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,256,64,FALSE,,250,TRUE,2,2,FALSE,standard,FALSE,no,,2,,32768
+TYPEC_RF_2P_32x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,32,64,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,,2,,4096
+TYPEC_RF_2P_64x24P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,24,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_dma_cntx_ram_wrapper,1,,1536
+TYPEC_RF_2P_40x80P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,40,80,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_idma_addr_fifo_ram_wrapper,1,,1920
+TYPEC_RF_2P_512x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,512,64,FALSE,,250,TRUE,4,2,FALSE,standard,FALSE,no,,5,,163840
+TYPEC_RF_2P_64x64P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,64,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,,2,usb2 memory,8192
+TYPEC_RF_2P_16x36P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,36,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_prot_hdr_rbuf_ram_wrapper,1,,576
+TYPEC_RF_2P_16x50P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,50,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_rd_cmd,1,,736
+TYPEC_RF_2P_16x46P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,46,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_rd_cmd,1,,736
+TYPEC_RF_2P_64x56P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,56,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_rd_resp,1,,3584
+TYPEC_RF_2P_64x51P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,51,FALSE,,250,TRUE,4,1,FALSE,standard,FALSE,no,ram_2p_sch_cntx_ram_wrapper,1,,3264
+TYPEC_RF_2P_32x72P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,32,72,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_slot_cntx_ram_wrapper,1,,2304
+TYPEC_RF_2P_64x198P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,198,FALSE,,250,TRUE,2,1,TRUE,standard,FALSE,no,ram_2p_trm_cntx_ram_wrapper,1,,4224
+TYPEC_RF_2P_64x66P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,64,66,FALSE,,250,TRUE,2,1,FALSE,standard,FALSE,no,ram_2p_trm_cntx_ram_wrapper,1,,4224
+TYPEC_RF_2P_16x52P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,52,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_wr_cmd,1,,768
+TYPEC_RF_2P_16x48P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,48,FALSE,,250,TRUE,1,1,FALSE,standard,FALSE,no,ram_2p_wr_cmd,1,,768
+TYPEC_SR_1P_12288x32P1,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02msa05,,12288,32,FALSE,,200,TRUE,16,4,FALSE,standard,FALSE,no,IRAM,1,,393216
+TYPEC_SR_1P_6144x32B1P1,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02msa05,,6144,32,TRUE,,200,TRUE,16,4,FALSE,standard,FALSE,no,DRAM,1,,196608
+TYPEC_RF_2P_128x44P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,128,44,FALSE,,200,TRUE,2,1,FALSE,standard,FALSE,no,one_port_wr_one_port_rd_mem,1,,5632
+TYPEC_RF_1P_128x32P1,1-ports HD RF ( 128K GEN2),ts28nzh41p11sadgl128sa03,,128,32,FALSE,,200,TRUE,1,1,FALSE,standard,FALSE,no,source_pkt_ram,1,,4096
+TYPEC_RF_2P_128x198P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,128,198,FALSE,,200,TRUE,2,1,TRUE,standard,FALSE,no,dptx_vif_mem,1,,25344
+TYPEC_RF_2P_16x72P1,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128sa02p2,,16,72,FALSE,,200,TRUE,1,1,FALSE,standard,FALSE,no,sync_fifo_not_encr_framer_data_i5_2_mem,1,,1152
+TYPEC_RF_2P_32x68P1,2-ports HD RF ( 128K GEN3),ts28nzh42p11sadgl128sa02p2,,32,68,FALSE,,200,TRUE,1,1,TRUE,standard,FALSE,no,,2,,4352
+TYPEC_RF_2P_32x44P1,2-ports HD RF ( 128K GEN3),ts28nzh42p11sadgl128sa02p2,,32,44,FALSE,,200,TRUE,1,1,FALSE,standard,FALSE,no,i2s_data_fifo_i,1,,1408
+TYPEC_SR_1P_4096x32B1P1,2-ports HD RF ( 128K GEN2),ts28nzh41p11sad2l02msa05,,4096,32,TRUE,,125,TRUE,16,1,FALSE,standard,FALSE,,DRAM,1,,131072

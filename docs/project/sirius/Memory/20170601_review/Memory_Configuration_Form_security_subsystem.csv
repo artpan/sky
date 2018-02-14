@@ -1,0 +1,7 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance num,,,,,
+SEC_SR_1P_8192X32B1PG,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02ms,32words160bits <-> 4096words40bits,8192,32,TRUE,,150,TRUE,16,4,TRUE,HIGH,,,,1,,,,,
+SEC_SR_1P_512X128PG,UHD SRAM (2M GEN2 ),ts28nzh41p11sad2l02ms,32words160bits <-> 4096words40bits,512,128,FALSE,,150,TRUE,4,1,TRUE,HIGH,,,,1,,,,, 
+SEC_RF_1P_256X32PG,HD RF (128K GEN2),ts28nzh41p11sadgl128s,8words160bits <-> 1024words64bits,256,32,FALSE,,150,TRUE,2,1,TRUE,HIGH,,,,3,,,,,
+SEC_RF_1P_128X32PG,HD RF (128K GEN2),ts28nzh41p11sadgl128s,8words160bits <-> 1024words64bits,128,32,FALSE,,150,TRUE,2,1,TRUE,HIGH,,,,1,,,,,
+SEC_ROM_1P_1024X32PG,ROM,ts28nzh41p10asdvl01ms,,1024,32,FALSE,,150,TRUE,8,1,TRUE,HIGH,,,,1,,,,,
+SEC_RF_1P_512X32PG,HD RF (128K GEN2),ts28nzh41p11sadgl128s,8words160bits <-> 1024words64bits,512,32,FALSE,,150,TRUE,4,1,TRUE,HIGH,,,,2,,,,,

@@ -1,0 +1,2 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,Instance Num
+EMMC_RF_1P_512X32PG,HD RF (128K GEN2),ts28nzh41p11sadgl128sa03,,512,32,FALSE, ,150MHz,TRUE,4,1,FALSE,HIGH,FALSE,,u_DWC_mshc_mem,1

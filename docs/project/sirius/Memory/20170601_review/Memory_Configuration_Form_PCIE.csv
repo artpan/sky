@@ -1,0 +1,17 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay (ns),Max Operating Freq. (MHz),power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency (optional),Instance Name ,number
+PCIE_RF_1P_448X34,HD RF (128K GEN2),ts28nzh41p11sadgl128s,8words160bits <-> 1024words64bits,448,34,FALSE,,250,TRUE,4,1,FALSE,,,FALSE,u_ram_1p_rbuf,1
+PCIE_RF_2P_128X9,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,128,9,FALSE,,250,TRUE,4,1,FALSE,,,FALSE,u_ram_2p_sotbuf,1
+PCIE_RF_2P_88X136,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,88,136,FALSE,,250,TRUE,1,2,TRUE,,,FALSE,u0_ram_radm_qbuffer_hdr,1
+PCIE_RF_2P_448X33,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,448,33,FALSE,,250,TRUE,4,2,FALSE,,,FALSE,u3_ram_radm_qbuffer_data,1
+PCIE_RF_2P_32X160,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,32,160,FALSE,,250,TRUE,1,1,TRUE,,,FALSE,u_ib_rreq_ordr_ram,1
+PCIE_RF_2P_16X182,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,182,FALSE,,250,TRUE,2,1,TRUE,,,FALSE,u_ib_rreq_c2a_cdc_ram,1
+PCIE_RF_2P_16X246,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,246,FALSE,,250,TRUE,2,1,TRUE,,,FALSE,u_ib_wreq_c2a_cdc_ram,1
+PCIE_RF_2P_16X120,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,120,FALSE,,250,TRUE,1,1,TRUE,,,FALSE,u_ib_mcpl_a2c_cdc_ram,1
+PCIE_RF_2P_512X67,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,512,67,FALSE,,250,TRUE,4,2,TRUE,,,FALSE,u_ib_mcpl_sb_ram,1
+PCIE_RF_2P_32X95,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,32,95,FALSE,,125,TRUE,4,1,TRUE,,,FALSE,u_slv_npw_sab_ram,1
+PCIE_RF_2P_16X116,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,116,FALSE,,250,TRUE,1,1,FALSE,,,FALSE,u_ob_npdcmp_ram,1
+PCIE_RF_2P_16X78,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,78,FALSE,,250,TRUE,2,1,FALSE,,,FALSE,u_ob_pdcmp_hdr_ram,1
+PCIE_RF_2P_72X64,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,72,64,FALSE,,250,TRUE,2,1,FALSE,,,FALSE,u_ob_pdcmp_data_ram,1
+PCIE_RF_2P_576X67,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,576,67,FALSE,,250,TRUE,4,4,TRUE,,,FALSE,u_ob_ccmp_data_ram,1
+PCIE_RF_2P_16X100,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,16,100,FALSE,,250,TRUE,2,1,FALSE,,,FALSE,u_ob_cpl_c2a_cdc_ram,1
+PCIE_RF_2P_1024X32,2-ports HD RF ( 128K GEN2),ts28nzh42p11sadgl128s,16words128bits <-> 1024words64bits,1024,32,FALSE,,250,TRUE,4,4,FALSE,,,FALSE,u_edma_rdbuff_ram2p,1

@@ -1,0 +1,27 @@
+1. Project name: sirius
+
+2. Voltage: check with MT form
+
+
+3. Poly/Metal:  1P8M 5X2Z
+
+4. Seal ring: customer added seal ring already?
+Or TSMC add seal ring.
+    TSMC add seal ring
+
+
+5. Uncomp GDS file name: sirius_top.g_d_s.gz
+   uncomp GDS file size: 485,468,632 byte
+   uncomp GDS file checksum: 313412781 17710254675 
+   Top Cell name: sirius_top
+
+6. Chip Window Size: 
+    X_Lower Left  0  um     Y_Lower Left  0  um  
+    X_Upper Right  9450.0  um    Y_Upper Right 10000.0   um  (pre-shrink)
+7. Customer has completed DRC?
+
+
+   TSMC Command File Version :  
+   DRC result (Pass/Fail):	Fail, no clean
+
+ 

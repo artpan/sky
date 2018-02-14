@@ -1,0 +1,5 @@
+Hi Shanghai Artosyn team:
+
+Please instantiate the OTP gds into your soc and run full chip drc to see if there are any issues.
+
+The drc violations, other than PO.R.12 will not be there in the final gds delivery.

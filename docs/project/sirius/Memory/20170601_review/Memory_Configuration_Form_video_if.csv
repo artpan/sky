@@ -1,0 +1,10 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay (ns),Max Operating Freq. (MHz),power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency (optional),Instance Name ,instance number,instance bit
+VIF_RF_1P_1536X144PG,Single Port high speed Leakage Control SRAM 1M Sync,ts28nzh41p11sassl01msa01p1,,1536,144,FALSE,,500,TRUE,4,2,FALSE,HIGH,FALSE,no,,1,172032
+VIF_RF_2P_768X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,768,128,FALSE,,500,TRUE,4,4,TRUE,HIGH,FALSE,no,,2,0
+VIF_RF_2P_512X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,512,128,FALSE,,500,TRUE,2,4,TRUE,HIGH,FALSE,no,,0,no use
+VIF_RF_2P_256X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,256,128,FALSE,,500,TRUE,1,4,FALSE,HIGH,FALSE,no,,0,no use
+VIF_RF_2P_128X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,128,128,FALSE,,500,TRUE,1,2,FALSE,HIGH,FALSE,no,,0,no use
+VIF_RF_2P_64X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,64,128,FALSE,,500,TRUE,1,2,FALSE,HIGH,FALSE,no,,0,no use
+VIF_RF_2P_32X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,32,128,FALSE,,500,TRUE,1,1,FALSE,HIGH,FALSE,no,,0,no use
+VIF_RF_2P_384X128PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,384,128,FALSE,,500,TRUE,2,4,TRUE,HIGH,FALSE,no,,2,196608
+VIF_RF_2P_16X108PG,2port HD 128K,ts28nzh42p11sadgl128sa02p2,,16,108,FALSE,,500,TRUE,1,1,FALSE,HIGH,FALSE,no,,1,196608

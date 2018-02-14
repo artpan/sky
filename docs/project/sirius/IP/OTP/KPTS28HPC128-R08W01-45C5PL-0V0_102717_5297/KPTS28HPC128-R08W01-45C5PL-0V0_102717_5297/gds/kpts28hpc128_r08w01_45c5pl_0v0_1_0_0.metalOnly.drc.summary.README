@@ -1,0 +1,17 @@
+ 
+DRC summary for  kpts28hpc128_r08w01_45c5pl_0v0.metalOnly.drc.summary 
+=================================================================
+RULECHECK FLIP_CHIP_WITHOUT_28K_AP:WARNING ............... TOTAL Result Count = 1  (1)
+RULECHECK DIODMY_L:WARNING ............................... TOTAL Result Count = 1  (1)
+RULECHECK NW.S.2 ......................................... TOTAL Result Count = 5  (8)
+RULECHECK NW.S.3 ......................................... TOTAL Result Count = 9  (9)
+RULECHECK NW.S.4 ......................................... TOTAL Result Count = 61 (82)
+RULECHECK NW.S.3__NW.S.4:SUGGESTED ....................... TOTAL Result Count = 71 (92)
+RULECHECK PO.R.12 ........................................ TOTAL Result Count = 1  (288288)
+ 
+***************************************************************** 
+
+Note: The NW violations will not show up in complete gds
+please instantiate gds into soc and run full chip drc. Let's know if
+there are other drc issues.
+ 

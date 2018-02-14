@@ -1,0 +1,13 @@
+TSMC
+FAB15
+TMJX23
+================================================
+Chip Size :   X = 8.6150 ,Y = 9.1644 mm
+Reticle Size :   X/cell =  3 ,Y/cell =  3
+Offset Value :   X = 1.3146 ,Y = 9.3280 mm
+Alignment Mark :   N/A
+Alignment Mark Tolerant Distance :      0.0 mm
+Notch Reserved Distance :   7.75 mm
+Start Distance :   7.75 mm
+Ring Edge :   3.0 mm
+Photo Die Number:     800

@@ -1,0 +1,189 @@
+X-Alimail-AntiSpam:AC=PASS;BC=-1|-1;BR=01201311R611e2;FP=0|-1|-1|-1|0|-1|-1|-1;HT=e02c03311;MF=support-fabric@arm.com;NM=1;PH=DM;RN=2;RT=2;SC=80;SR=1;TI=MTA_---.8DtFSBj_1497503042;
+Received: from EUR02-AM5-obe.outbound.protection.outlook.com(mailfrom:support-fabric@arm.com ip:40.107.0.74)
+          by mx1.aliyun-inc.com(10.147.41.230);
+          Thu, 15 Jun 2017 13:04:05 +0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=armh.onmicrosoft.com;
+ s=selector1-arm-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=KwHgBVbrLm85I19sbzaTVvLKp0YbO7QA6apTFCksveg=;
+ b=Gbd1PD8FH3YNvC4Wof6j3dPrcebU2ozSfCxF8hQ7HVRUXgY9GBJbUgAZCGmvr/1ixX62uYym9B/XYF0O9xPSn7g/rpl+1N5MI3UaPPRCFvCg+PtD2jczt6pO+xhp6yZaO8SlXTylTvdw+3z9BksjwiF8prYlz2wd/KejaLkNpoU=
+Received: from DB6PR0802CA0048.eurprd08.prod.outlook.com (2603:10a6:4:a3::34)
+ by AM3PR08MB0088.eurprd08.prod.outlook.com (2a01:111:e400:8847::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1178.14; Thu, 15
+ Jun 2017 05:03:46 +0000
+Received: from VE1EUR03FT032.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e09::208) by DB6PR0802CA0048.outlook.office365.com
+ (2603:10a6:4:a3::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1178.14 via
+ Frontend Transport; Thu, 15 Jun 2017 05:03:46 +0000
+Authentication-Results: spf=pass (sender IP is 217.140.96.140)
+ smtp.mailfrom=arm.com; artosyn.cn; dkim=none (message not signed)
+ header.d=none;artosyn.cn; dmarc=bestguesspass action=none
+ header.from=arm.com;
+Received-SPF: Pass (protection.outlook.com: domain of arm.com designates
+ 217.140.96.140 as permitted sender) receiver=protection.outlook.com;
+ client-ip=217.140.96.140; helo=nebula.arm.com;
+Received: from nebula.arm.com (217.140.96.140) by
+ VE1EUR03FT032.mail.protection.outlook.com (10.152.18.121) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.1.1157.12 via Frontend Transport; Thu, 15 Jun 2017 05:03:45 +0000
+Received: from gb-connect-int.cambridge.arm.com (10.1.2.79) by mail.arm.com
+ (10.1.106.66) with Microsoft SMTP Server id 14.3.294.0; Thu, 15 Jun 2017
+ 06:03:31 +0100
+MIME-Version: 1.0
+Content-ID: <29607.1497503006.1@gb-connect-int.cambridge.arm.com>
+From: <support-fabric@arm.com>
+To: <song.pan@artosyn.cn>, <haibin.bai@artosyn.cn>
+Subject: =?UTF-8?Q?Re:_PTW_for_secure_and_non-secure_translation_=5BTAC69?=
+ =?UTF-8?Q?6171=5D?=
+Precedence: bulk
+CC: <song.pan@artosyn.cn>, <support-fabric@arm.com>
+X-Originator: darren.ma@arm.com
+X-ARM-Generated: 0,7CD28F43067B777FCEF58002CCB89599170888FFB917CE8FA8CCA1AAE76295D23704FDFF9F60F925
+Date: Thu, 15 Jun 2017 06:03:26 +0100
+Message-ID: <29607.1497503006.2@gb-connect-int.cambridge.arm.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: support-fabric@arm.com
+X-EOPAttributedMessage: 0
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report:
+	CIP:217.140.96.140;IPV:CAL;SCL:-1;CTRY:GB;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(39450400003)(39840400002)(39410400002)(39860400002)(39850400002)(39400400002)(2980300002)(438002)(199003)(40434004)(189002)(6666003)(478600001)(5660300001)(86152003)(7696004)(23676002)(106466001)(55016002)(305945005)(79362002)(2906002)(2876002)(86362001)(966005)(104016004)(189998001)(551934003)(77096006)(38730400002)(4326008)(5890100001)(6246003)(88526003)(8936002)(47776003)(6306002)(54906002)(356003)(229853002)(8676002)(54356999)(50466002)(8746002)(50986999);DIR:OUT;SFP:1101;SCL:1;SRVR:AM3PR08MB0088;H:nebula.arm.com;FPR:;SPF:Pass;MLV:sfv;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;VE1EUR03FT032;1:LvtK6Wco593KJQplt7Bk7MS6IxHxyEJgmxIeK5sDvsOAMMnBaF8MF/DvwLU+r69m7nxSuM+X3WR6PdBwebcl3nBh1BM2954ktCn9l0ddlflmqqeeJXsxsQAzHxfiJGKX4Xome3lK63SsK3TOrLq/8o3nRuIzuvjW6gvWdOs82KYQd31zr3LMV7jsY5shqfUiQ8wBMhoEr9UivmWOZ+f7cdMeIqDPwpXZlIr9S+W3VuQKf5036ySGEc2VxfmucFXeJKId35bIxrHVdbslN0dXL4Ej+KxxDTr/2jgCJL9zLCAQh3Vf3p3SWER//q6PCnQP1Q9uRqGKg6Hg3dJ7UDZDDi+fonlRC6FLxaKc7vPXuc9O4n/Bm+ANpkdEKdfkW+eKy9wlI2MCDMvHIm45xBgQ2IPJ4iBJ8tJMZ4dLctPEh4k5VAZBdAukT+NhP6iDmwLBudV6p3qByc6IAIkAQuPoEuJzh+W915pPFcHLeDrOlx3FRYgKR3BAQiBik/ctivhV3LAeL9F4EjYkH+nOUXiW8j5KVj9iIYbZhV9Dfqo73nt6pqzTmmONXSpw9Qz4Dr1s
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 301a512e-eb99-4c1b-80ce-08d4b3abe6b5
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(22001)(8251501002)(2017030254075)(201703131423075)(201703031133081);SRVR:AM3PR08MB0088;
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;3:KRSTpGlLERXovYDs39wy/ff9e+h7BrHT/ugvNOg2guNDdZo2WtOhREZR+xvIveS0FNk4Rr7y07KuY//OLLzgTmNJMrUZDkclYLYOuTRyVEpnZ/PgKvu1m61RIW+I1a4eM/2rIqkmqH/5hEbpTiLRbRSw79p37kYZVoAceqDyrynW7gcUNCDD9dXwRN1kOio8VHIcmnWaiu1vHDchkgSUTPgjIiBE++NSZpAcQqYeOjdYOm5wgHbrmBlex1GA5XGUYyOJzIIgKIKFBmKs4ajGXdwlG9wkhZSPN7ar1ss/TgfM9DivCELce2f90U58hIscXLmJHgrRTXXlg5RTc2p4UYbMv6kvWjoOuROesoPhG5Fy1PFMgNKwPPAHOZ+AZlXLWgipHWn/PfIgQWeXVd3scxf1MTauKnv9RRXVkYovotT0l+00VehgfwWvIa5JR6yBvJj1Z/JRVI4lEjqVZiGHzJwqhK1NHAy2E/3GBD8KlnSRakPrWGaP9iLjO5uJsIAf
+X-MS-TrafficTypeDiagnostic: AM3PR08MB0088:
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;25:V4vzfY6eXLn35oLAm3EMBu/cB7I4Lc4DelatbJe6a3aZywcXDfgQCwmk56VGY5ZdaFE/JKf5xT0LzBJd3drvC1bDjIf7ThfsdAP7jDbBMfH/5jHtpAmwFutwSGu2nFL0ZWikT7OysjlWfSqN7gPwA5+XLM20aNxXcjrkCXR4lzsSAvXweHb7UanjWKlP7Pu8z+5KxWo1IC3FXMhjpr6luM5dCq8LFgeQ0bhd/SwFyNGQdXpnoUcu4y//u8BLDO6/LK0nlmdx4N40rGFnRxJJfUTr5nnq3sTgA68ehAqj4Lmua6BKYFnoJT03iEC5c2/+/53MAFwnYBnBZ3DP99nYZtJkrj3cmCqbDD08KR32vHMDiCb1SJgmaHGgc0Vws8rmsQF4YdGRaeacHJxdBoHzCwEVdCFCG7Sck84xfawT0Q9funLkTXNHAL2rbq0gx4B+umd/AxvxqlNeVjHT6pcHWs9JGwSqeeG1SnldT8e70AM=;31:R7G2ls2DIzHRBzrWPBBG1tRzzFy/DZywZMzY+x6pUa8Dav+2lxviwqo5DGPEMyNjodUOWRNagGVm5mWZz0cRyoTuBdpV+idPF2JCtMAcayWJC1X6TPd72+cxkZWrtv+brKM8NVCaUB03qg6r8GbTbIQpT6Lr34Ohi1dcRjPwi1BAsnePkMxR2xQi18n9xBxUhPz8RfZnsI0eais/z28IPXnDtp+Z2XK/lDMneyuG+93IloJRpX90N1phSJzzzd/91VPrWyTs0IIXptZq+NS/8A==
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;20:FB9VeCbrqPEE48Z5bDI75NNUjFQzrImgU8t1Uf5gPL86TPnYUNsKRxaSd6LvJekvYjUc5+/aom9Ku8FayPjnTE2GWwQXYbbrdOiFVtfOScLQbKdwovhpJUxf3B3ezbcZ+nf9RuzGzMb2psRSinIU6XD1CS8BtDa5nemhveqTJkhAM/T5w4UevxHuvPi9JS9PnVhjZNjaoeccax4SgwtcgHSWiRTv932o/X0PMMb1OMen7mS2NjBr4S2/3ymNxzmXiTFcCg4eNnQd65IDqnRinw/hnLd0qClYUDnGNhH1K+7aPzCOdcI4MUktMMh1ZPBWLTt8/NRT7r+vszcMETIiicVYSeiFU6zgB8xiNkHSGDlsUEf04J5A0XW5ckpFgAzToeL/taVTnJLUobwVaedxBOqefl4YLYfDZCU4as3huCDqnmxnqZPlev52V/+xS7UYf4MMqOS4thumB16h63oYr81S1jr/8lHkYIkfclkhVAUMbK4VxYHq/Whj5smIAwe/
+X-Microsoft-Antispam-PRVS:
+	<AM3PR08MB00888A4B1E6FF57B65944E7B94C00@AM3PR08MB0088.eurprd08.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:(180628864354917)(263449150080598);
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(5005006)(13013025)(8121501046)(13021025)(10201501046)(3002001)(100000703101)(100105400095)(93006095)(93004095)(6055026)(6041248)(20161123560025)(20161123564025)(20161123562025)(20161123558100)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123555025)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM3PR08MB0088;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM3PR08MB0088;
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtBTTNQUjA4TUIwMDg4OzQ6TXYrYWQwNmpNb2hDbXNpNmNjOFFiTllDNjhK?=
+ =?utf-8?B?bGtldDBTWXZWQTVSeG1kM3dPMEtuQVM1VzIzcVhoYzI3MjVNRlUwQUluRXBM?=
+ =?utf-8?B?dlZ5WFIrYlE1dStzWWdFeHAzU05EZUJKbWozMEhpeFJGeTVqeFlJZmZpcjNH?=
+ =?utf-8?B?WFhjaDJtbkRLaS9mdzlCcEs0blpKTWIyRmVJZEZCL1ZZTGRpT1VPNjlvUGI3?=
+ =?utf-8?B?QU1HZE52WmdxdzUxYy9qRTJBbmFxekVzZSs3Rll0WVJzV1FROEc0YUdYYmdD?=
+ =?utf-8?B?VXQxeitUeURaVDM4MlZkQ3ZDMXRoVGQ2TVpHYVZoWWF2dGNBMTdNZEozK3o3?=
+ =?utf-8?B?M1V6ZW5zL0xKTnA5bWdTYjlpWnhyR3hqUHhGcXkyT0N5UXAzbFVYZVNKUEJX?=
+ =?utf-8?B?QmZXdmRqdVMyeStGMTVTWUJHWTUvVTdKSnlWWjR5UFVidFFnMjd5Zm1XaDlO?=
+ =?utf-8?B?OElpcCswQTJJOElZWkJBSThuL09sYlNMdk9QWm1YeXRGWTZGNGJpemlFQ3pV?=
+ =?utf-8?B?L0xrZ2NuM2ZxQkJBaWI5V0FacmFvbDJzMWFVWlhQUkpJZG5PMC9LREFURXlz?=
+ =?utf-8?B?Nm53eFZoUXBiZEZiN3VDZU9mMW5VbzhmcDFRbVdranBwdVRsUEdHVVV4N0tk?=
+ =?utf-8?B?eCtoOEZqYmIyOXEyNnhYcXY2d215VktaWGkxOTcrMUxVeEVQNXBSYWdTTnEy?=
+ =?utf-8?B?RzlDUlZLdjJ1OEhxUTNCeEpWRjJtTklTdGNERGhtQWViRC83S1h6OEdsMjI3?=
+ =?utf-8?B?V0VmZ3lzUi9OVFdLb0wyVG1iNm1hdUpKWWZvekN4VG1BRUQ5Q3VFZjE5d0U4?=
+ =?utf-8?B?NDBSTzV4eXFhUTJQSW5nMzJSUEVEek1VZm8xRms2dUthVlM2M0pWRVF0K0Ix?=
+ =?utf-8?B?cUdhS3h0NUxZMUxUWWE4aDA0TVNoeW16ZWlwUFViVGR5NDhEMXcvamYwT2d2?=
+ =?utf-8?B?QkgzamFMU2dieUlFbmpuZFdEM1oyRndUSFBBUExHcHNKYmFwNkRSUjljUmdG?=
+ =?utf-8?B?a3lxdFJqNzNrQ1RBSXRRVXdoVnN0ZjdWNFNrYmJvVGY2NjRIMkNFclZaYThQ?=
+ =?utf-8?B?YzBQS0U2MGJtQmRlbExkMXFKeUx5RWR5RXc1VW5qODhZTFc1ZjBSd2lWNndH?=
+ =?utf-8?B?SE5WTXRGRmdKZjkrQjFzcjJCRThnOGJkb05NekpOc0RKOFZiQVVhM0RxcXNn?=
+ =?utf-8?B?a1piQTFsMVFmcUxoa3VTejloaXJnbXV3V3JmSVg0TGx5M1Z5N09SeUlCclBs?=
+ =?utf-8?B?TE1Cc2Iwc2JPNkU1ZXJoM3ovYTR3aVBWR0o5dU5VMGdoRHNaL3doa0xHNGdL?=
+ =?utf-8?B?bStQdW9qOVhjL1ExYWZEcGRuU2UwOFNqUGJTSzdXdHN6UEZ4VXNOT09OMzVx?=
+ =?utf-8?B?QnZUMHpBVUZuVzVKZW5UaFMvWmhpOXYvYzhOSTdXcllWUjFWTnJuclZxV09l?=
+ =?utf-8?B?Y2U0U09XYm5jTTdYamZ0V082N25Wei9YOEdrZndCdWhWd0VObkludkNWbi9X?=
+ =?utf-8?B?ai83bWNtbGZLTThqdHFLcDBtelpzSXBDM1owcDRjSmplS2N1bFZsK0xpZVdI?=
+ =?utf-8?B?OS9xSmltMVBBTFRHTTh2TkVFTWlnelo3dXo5cE1KV3crdVArN3ZFd2w0cjdG?=
+ =?utf-8?B?MXJxK1F3S0JGTHBnNUdVb3hFSlRjSGdENjNONDRLUDN0Ui9VZVdIS2RXdEJE?=
+ =?utf-8?B?emsxaFgzWE0zNnlQWDNwVVlEeEg4eGhNREhwem1LdUpWdGRzakpjdjBRMnRP?=
+ =?utf-8?B?cUdGRGFheERzZTdsdmJBPT0=?=
+X-Forefront-PRVS: 0339F89554
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtBTTNQUjA4TUIwMDg4OzIzOjNoWnRJTmJyQjZKSllwYTN0OW5XaXhmNnRT?=
+ =?utf-8?B?d3FRandic3ZDeWVDVktoTllEOHZwZXpUbkhSRFdacmlmL2VsczBmRjBSMTdu?=
+ =?utf-8?B?Z1QrTlV3aHF6cnhYaEpNOG5TSDB2a3NhMXdTQ1pjQkNhK2dBSHk5aEhvcG1y?=
+ =?utf-8?B?N055WUh3WFNCdkN6SEw2YTNyUm5vMzQ2ZW5Bb2tKaG9MdyswMnFNZ0pEaXkw?=
+ =?utf-8?B?cEpYbWx0OUJiZkJFMnhFaC9jdWgyelZUMGVCUk5XenZ6aVFlQjRwVE9MRE5M?=
+ =?utf-8?B?NndsQlFwaDI5azk0ejFFaHhWWWV2ekJuU0FuWEtRaFRCMTg0d043Ylc1YjVj?=
+ =?utf-8?B?VUF2dCtaVExYbDNaWXNaTk5kdDVlVXAzdEFPYWd0cUk4TlMyN3UweE5icWlz?=
+ =?utf-8?B?bW5sV1U2S2RDQitmNjhVc0Flcktudm0wcDlOQW5FWjZMWmtnUjFyVmZzWXlz?=
+ =?utf-8?B?RU9PTzhqWi9ySW83VFpUVkgzTEZpZE5nTEhrZUtLRHd0WlNKa3Vvc0tDQ0xx?=
+ =?utf-8?B?aUE2aEcrZG9jSmhkekh0ZkxidlNvRHloMWJPQmxnRHUycHhXalBFMnd3c0pS?=
+ =?utf-8?B?VTdFNjFPa0F1cHY2L1l3bVZ6d1dmc0FCZzBuSUYxRW45bEJnWGV0TGFUT3pw?=
+ =?utf-8?B?K2tWczZReVo4OSt1NzVmNDFXM2JHaGdLdWtOMGpzZ0JFOWZWb3RDQ3ltVFRQ?=
+ =?utf-8?B?YmNVVnhzNGV5bisrWkpRQ0NWZERuMlRxRlpVbHI3SVEzMUUxOEdqZ3VzVkU3?=
+ =?utf-8?B?aFJIaVViODRXbHpzMS9sU0lPdkdPaFFQcm42QzUwNUx3Y3B0M2xEWFIxWXRi?=
+ =?utf-8?B?N1FXNERiR05tOGZ5a0hkNCtsU3hBV2dQaExCeDdxWUZqVkJOUWZ2dWJ3WVVX?=
+ =?utf-8?B?ZTllVVpGenU4emFPeW82Wi9sU0J6K3pBc1hNcHlyZHN2dFpPbU1FTzRaL1c2?=
+ =?utf-8?B?Tm8wSFRGVGU1bnkya2kvYWJ4QWJ0Y1VRYnR0LzVWVUdnUzJwMm9hOWtkR0lH?=
+ =?utf-8?B?YnBtaFNzV0JUNTZtdjBYWEF1MHFackxKY0svc0taajlRblNjdUcwN0RpT3Ft?=
+ =?utf-8?B?Z3g0b2lrRDEzdVFKRitzSUtpTjVWRjV3UWRMdFFDN0RjRTFYTWYzYWJNaXBv?=
+ =?utf-8?B?djR3UWxMTUxlTWw2ZFlLWHNSb2ZlNjI3Ym1HcUFLRlN0L3V2dUhlY3hET055?=
+ =?utf-8?B?TkVqZ3J3RktHWitmSXArc2I1dHZmWVdUOW5ycjJ1bE1rRUFXQ01OUFV2emln?=
+ =?utf-8?B?SUdjOFFWOSswdTZTNEdDeUp1M3IwTU80V2N2NFRqT2djRlRVTTRCYkF1V2JY?=
+ =?utf-8?B?YWhLR2JpZlpONStyM1V4eU1OYzFubTRYQ1l4akw5d1VYbW12R25GWHJWNUYw?=
+ =?utf-8?B?MG15ekw1SFd0UmdMdFFhak5IZTlyYzlqYktKRGo0NEthRExhNUIrdXg2cjRa?=
+ =?utf-8?B?L2VrazBhaFVuckR0SEVWRStpMnRrZE1Obmd4MWxNRWRBblhOMFVkbVFxYTc4?=
+ =?utf-8?Q?sPet0po6QOg+ngrS9m+8YB06k=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;6:QohqcAIS4HTlFxwGhZ9VL0vsBT7yY5jOCzlwDN30mqL+Z1yGhI6J6+qbTmc4C6eNDmrrcXbhftdtk0/8NicfOUSuoAol1fcfBEPlRiS0HEntRjnBZ+44H5+h1vAE3+CCT8LsGMkpQqHuqcwqGQGH+NQFcdhJ1k5G8k0iNo9p4B5XceZkqznmoKTo1LulTwZPuJVykMwaiijwaviYKUbFP6T2fARpo2gj360eCi47s4fio1ENXCw5Azmz+LOMmfj0GkmmjaeJZfc7QJiYq0iWS0rwpjMi7fPQ9L0dRVAsgYaYowivtBXZEGXsEHw3Z9YfJXH4i9pH1y4+tVFJmngAtxphM859/fxLH32OO9neRiDn0Fl0jxoshlCKcUbYdONjmAgcGel0CRyRT4NzmPuyQ8/4gHN4eIYuBTnAOR6Q0XHw1lOXlaAzKnuMdAlkbRGS+gji+WITYA6wH/foRlmPDl+cg4TNQVtXdcqQjcti5HHVIsog5YNYisLSacqhmtuzen0dpFn8+3T7yTygC0T6JaAAKa82VQvYL6x4GOIkEN8=
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;5:0dYf/PX8MrhBqzhi5q564n4oBKXmLiG/FBRIUCpwIAsOc3s7mq6CaIHu7xSJgsq4fKi8JpkTgOgTjpPiZR9euP6bxwEdPhiFIpffEsQ15f7UTPM3vKm1mv3ghOneQG8cKtkre9Zu6CwchwOgGKyZ2kWy6qwZ5MJRUOwzXPyGODgJ0mCLlDIVYPMO0gVpxwsk9cq8Mj2tU46+1pftvUxMnLJxLYV7zK85w1hKJyADkbXitJaV+pdMA1L99EfC0yhm6JlGxYzr+elcY/iR2Rea6iqD/u8yzns9794EuWnS7Bxk4MmTUXM49xy6ySS3yOYTCi2ADrDof6oJeHEuIoDrnAt4YYsANsLJMu58GWqneeSEjPjfuI+suvhtypJzkqXiaXhLUDfVH5DkIUMkPEl9JJX2piROOKYvtlOduvOPv3MaB7Xj/1Zmxkdt/lcNxwFYSfQr3VKYA/zYkKT21NSVTX7Z+tSw29YZMQwlk8uijEqDsHaPq9fKyB5WXcjbWAXw;24:BjGNQpG0Xn3QiZHLs3uIixDya3K7caeAETKc12z6yiS+TlsvxHhrovOYdgVaWFWbckVo7ExPxCeo6hSRcyEYRc4kHfvsB3bjzYFk8Tu7X7Y=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR08MB0088;7:WtAvfKzC+owddP5W/UTJIu2zzg1Xb2LmH7CgQjzSPRoDvbmqaGJkNTnZOhZfXdq5m45OhuEn/QjiB/crgamwnaWw1DNUU6u1gkW1gmLamrOnOvVgYwQ1bjlwV07swSHf8gyVx36GePRa1FWtNX+p3fK2aL8cIKC6C3SQwnGdrYfFvnUQAx2lOq4t7pIxX8I1q7pJ11wU/8NGwTo51ySCjP3iqQfWVzTkI7p64iNvmhFNzN8hOM25BPnkdKdt0vyn1vptvqzpmXZpwWFEhHVesWXSJRy4fb+IRSiaNaR0redlPP7Nppl70HqY+68SXDa1plO6wxSXKj6J7zDrXQ0g1w==
+X-OriginatorOrg: arm.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Jun 2017 05:03:45.4547
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: f34e5979-57d9-4aaa-ad4d-b122a662184d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=f34e5979-57d9-4aaa-ad4d-b122a662184d;Ip=[217.140.96.140];Helo=[nebula.arm.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM3PR08MB0088
+
+[From Darren Ma - ARM Technical Support]
+
+Please quote reference number TAC696171 when referring to this issue.
+
+Hello Robin,
+
+For your case, the TCU can issue secure PTW when the transaction is SSD sec=
+ure and TCR.NSCFGx =3D b0 and NS bit in the first level table of short desc=
+riptor format. Can you confirm that your cases match the above conditions? =
+The programming interface should be secure when programming the TCR of secu=
+re context. It is helpful if you can attach the waveform for further invest=
+igation if the issue cannot be resolved.
+
+> BTW, I didn't find NS bit in page table entry with V7 short descriptor fo=
+rmat, can you help clarify this ?
+
+In the Short-descriptor translation table format, the NS bit is defined onl=
+y in the first-level translation tables. The section B3.3.5 Access to the S=
+ecure or Non-secure physical address map of ARM=C2=AE Architecture Referenc=
+e Manual ARMv7-A and ARMv7-R edition or G4.4.5 Access to the Secure or Non-=
+secure physical address map of ARM=C2=AE Architecture Reference Manual ARMv=
+8, for ARMv8-A architecture profile, which can both accessed from https://d=
+eveloper.arm.com.
+
+Kind Regards,
+Darren
+
+
+--
+This e-mail message has been automatically generated by connect.arm.com,
+a web-based service provided by ARM Ltd.  It is intended for the addressee
+only and may contain information that is the property of, and/or subject to
+a confidentiality agreement between the intended recipient, their
+organisation and/or the ARM Group of Companies. If you are not the intended
+recipient of this e-mail message, you should not read, copy, forward or
+otherwise distribute or further disclose the information in it; misuse of
+the contents of this e-mail message may violate various laws in your state,
+country or jurisdiction. If you have received this e-mail message in error,
+please contact the originator of this e-mail message via e-mail and delete
+all copies of this message from your computer or network, thank you.
+IMPORTANT NOTICE: The contents of this email and any attachments are confid=
+ential and may also be privileged. If you are not the intended recipient, p=
+lease notify the sender immediately and do not disclose the contents to any=
+ other person, use it for any purpose, or store or copy the information in =
+any medium. Thank you.

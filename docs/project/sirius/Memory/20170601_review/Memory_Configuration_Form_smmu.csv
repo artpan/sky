@@ -1,0 +1,6 @@
+Module Name* (in netlist),Type,synopsys memory type,config boundary reference,Word Number,Bit Number,Bit-write,Memory C-Q delay  ,Max Operating Freq.  ,power_gating,Mux Number,Bank,center_decode,periphery_vt,redundancy,2-cycle latency,Instance Name ,bits,num,sum_bits
+SMMU_RF_1P_272X126,HS RF (128K),ts28nzh41p11sasrl128s,16words128bits <-> 1024words64bits,272,126,FALSE,,600,FALSE,2,1,FALSE,HIGH,FALSE,FALSE,tcu_mtlb_wc X 4 X 2,34272,8,274176
+SMMU_RF_1P_32X126,HS RF (128K),ts28nzh41p11sasrl128s,16words128bits <-> 1024words64bits,32,126,FALSE,,600,FALSE,2,1,FALSE,HIGH,FALSE,FALSE,tcu_pfb_ip2p X 4 X 2,4032,8,32256
+SMMU_RF_1P_32X75,HS RF (128K),ts28nzh41p11sasrl128s,16words128bits <-> 1024words64bits,32,75,FALSE,,600,FALSE,4,1,TRUE,HIGH,FALSE,FALSE,tbu X 3 X 2,2400,6,14400
+SMMU_RF_1P_48X62,HS RF (128K),ts28nzh41p11sasrl128s,16words128bits <-> 1024words64bits,48,62,FALSE,,600,FALSE,2,1,FALSE,HIGH,FALSE,FALSE,tcu_mfifo_data X 2,2976,2,5952
+SMMU_RF_1P_32X61,HS RF (128K),ts28nzh41p11sasrl128s,16words128bits <-> 1024words64bits,32,61,FALSE,,600,FALSE,4,1,FALSE,HIGH,FALSE,FALSE,tcu_mfifo_data X 2,2976,2,5952

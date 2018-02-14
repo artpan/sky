@@ -1,0 +1,26 @@
+1. Project name: 
+
+2. Voltage: 
+
+
+3. Poly/Metal:  
+
+4. Seal ring: customer added seal ring already?
+Or TSMC add seal ring.
+
+
+5. Uncomp GDS file name:
+   uncomp GDS file size:
+   uncomp GDS file checksum:
+   Top Cell name: 
+
+6. Chip Window Size: 
+    X_Lower Left  0  um     Y_Lower Left  0  um  
+    X_Upper Right    um    Y_Upper Right    um 
+7. Customer has completed DRC?
+
+
+   TSMC Command File Version :
+   DRC result (Pass/Fail):
+
+ 
