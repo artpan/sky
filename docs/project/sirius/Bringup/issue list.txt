@@ -1,0 +1,12 @@
+Sirius project issue list:
+2018-03-01
+1. H2H async logic has bug case:
+	-- SINGLE(W)+INCR4(R)	, lost data
+	-- INCR(W), lost data
+	
+2. GPIO block can be reduced area. Every one GPIO block can support 32x A/B/C/D group. now instance 5x GPIO(32) = 160. Future can only instance 2. one is 32x4+32 = 160.
+3. QSPI flash need support below features
+	-- 256Byte page program , to fix program speed issue 
+	-- SPI NAND CMD list, 	to fix support SPI NAND access 
+	-- opt, need support DMA mode, add DMA master to read/write flash to DDR.
+	
