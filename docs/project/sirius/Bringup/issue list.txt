@@ -3,6 +3,7 @@ Sirius project issue list:
 1. H2H async logic has bug case:
 	-- SINGLE(W)+INCR4(R)	, lost data
 	-- INCR(W), lost data
+	-- M7 request single Read/Write for Device space, if combine the 0/4 address write in 64bit, will generate INCR(W), lost data
 	
 2. GPIO block can be reduced area. Every one GPIO block can support 32x A/B/C/D group. now instance 5x GPIO(32) = 160. Future can only instance 2. one is 32x4+32 = 160.
 3. QSPI flash need support below features
