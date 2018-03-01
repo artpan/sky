@@ -10,3 +10,10 @@ Sirius project issue list:
 	-- SPI NAND CMD list, 	to fix support SPI NAND access 
 	-- opt, need support DMA mode, add DMA master to read/write flash to DDR.
 	
+4. ROM code need update
+	-- support more eMMC/SPI flash type by OTP bit information
+	-- add system self-check program.
+
+5. Audio PLL support HW mode.
+
+6. HDMI RX EDID support HW access mode, I2C interface to Register file 256Byte space.
