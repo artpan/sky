@@ -18,3 +18,38 @@ Sirius project issue list:
 5. Audio PLL support HW mode.
 
 6. HDMI RX EDID support HW access mode, I2C interface to Register file 256Byte space.
+
+7. DDR4 is 4Gb size, 512MByte.
+
+8. ARM JTAG Id: 0x6BA00477, IRLen: 04, IRPrint: 0x1, CoreSight JTAG-DP (ARM)
+   ARM AP[0]: 0x54770002, APB-AP
+   ROMTbl 0 [0]: 00001003, CID: B105900D, PID:04-005BB906 ECT / CTI
+   ROMTbl 0 [1]: 00002003, CID: B105900D, PID:04-003BB908 CSTF
+   ROMTbl 0 [2]: 00003003, CID: B105900D, PID:04-002BB909
+   ROMTbl 0 [3]: 00004003, CID: B105900D, PID:04-004BB907 ETB
+   ROMTbl 0 [4]: 00005003, CID: B105900D, PID:04-005BB912 TPIU
+   ROMTbl 0 [5]: 00006003, CID: B105F00D, PID:04-001BB101
+   ROMTbl 0 [6]: 00020003, CID: B105100D, PID:04-000BB4A7 ROM Table
+   ROMTbl 1 [0]: 00010003, CID: B105900D, PID:04-005BBC07 Cortex-A7
+   
+JTAG read instruction by Jlink:
+PeripheralID0 : mem32 0x60400FE0 1 => get PeripheralID0
+PeripheralID1 : mem32 0x60400FE4 1 => get PeripheralID1
+PeripheralID2 : mem32 0x60400FE8 1 => get PeripheralID2
+PeripheralID4 : mem32 0x60400FD0 1 => get PeripheralID4
+Target ID can parse from the above data.
+
+ target ID = {revision, part number, designer JEDEC ID, 1'b1}
+= 32'h1001095F.
+
+Revision = target ID[31:28]
+rom_part_number[11:0] = target ID[27:16];
+jep106_ident_code[6:0] = target ID[7:1];
+
+PeripheralID0 = {24'b0, target ID[23:16]}
+
+PeripheralID1 = {24'b0, target ID[4:1], target ID[27:24]}
+
+PeripheralID2 = {24'b0, target ID[31:28], 1'b1, target ID[7:5]}
+
+PeripheralID4 = {28'b0, target ID[11:8]}
